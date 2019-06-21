@@ -1,0 +1,7 @@
+[INFO ] - 21-30-2019 10:30:16 - [main] - MainPage: Login was successful. Test Pass
+[INFO ] - 21-43-2019 10:43:36 - [main] - CartPage: Cart Page opened. Item was deleted. Test Pass
+[INFO ] - 21-43-2019 10:43:36 - [main] - CartPage: Clean cart.
+[INFO ] - 21-43-2019 10:43:36 - [main] - CartPage: Clean save for later
+[INFO ] - 21-44-2019 10:44:14 - [main] - CartPage: Cart Page opened. Item was added to save for later. Test Pass
+[INFO ] - 21-44-2019 10:44:14 - [main] - CartPage: Clean cart.
+[INFO ] - 21-44-2019 10:44:14 - [main] - CartPage: Clean save for later
