@@ -19,7 +19,7 @@ node{
       --name jmetertest \\
       --link=influxdb \\
       --volume ${volume_path}:${jmeter_path} \\
-        jmeter \\
+        vmarrazzo/jmeter  \\
       -n "-Jusers=${USERS} -JrumpUp=${RAMP_UP} -Jduration=${DURATION}" \\
       -t ${jmeter_path}/test.jmx\\
       -l ${jmeter_path}/tmp/result_${timestamp}.jtl \\
