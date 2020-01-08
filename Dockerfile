@@ -37,6 +37,7 @@ RUN curl -L --silent ${JMETER_PLUGINS_DOWNLOAD_URL}/jmeter-plugins-cmn-jmeter/0.
 ENV PATH $PATH:$JMETER_BIN
 
 # 8
+RUN chmod +x launch.sh
 COPY launch.sh /
 
 #9
