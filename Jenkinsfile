@@ -7,7 +7,7 @@ string(defaultValue: '60', description: 'in seconds',name: 'DURATION', trim: fal
 string(defaultValue: '1', description: 'in seconds', name: 'RAMP_UP', trim: false)])])
 
  stage("git pull"){
-      git branch: 'Performance_task', url: 'https://github.com/BakuBakuChan/university/Gatling'
+      git branch: 'Gatling', url: 'https://github.com/BakuBakuChan/university'
    }
  stage("Run gatling project"){
     sh label: '', script: '''docker run \\
