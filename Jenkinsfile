@@ -25,8 +25,7 @@ node{
       -l ${jmeter_path}/tmp/result_${timestamp}.jtl \\
       -j ${jmeter_path}/tmp/jmeter_${timestamp}.log'''  
     }
-   finally {
-        println currentBuild.result  // this prints null
+   stage("Send mail"){
         step([$class: 'Mailer', notifyEveryUnstableBuild: true, recipients: 'roomwait@gmail.com', sendToIndividuals: true])
     }
 }
